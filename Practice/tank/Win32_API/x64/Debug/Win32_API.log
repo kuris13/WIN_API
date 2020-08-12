@@ -1,13 +1,1 @@
-﻿  gameNode.cpp
-  keyManager.cpp
-  main.cpp
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\main.cpp(177): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  mainGame.cpp
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(65): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(66): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(72): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(73): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(93): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\kuris_window\desktop\winapi\practice\tank\win32_api_tank\win32_api\maingame.cpp(94): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
-  Win32_API.vcxproj -> C:\Users\kuris_window\Desktop\WinApi\Practice\tank\Win32_API_tank\x64\Debug\Win32_API.exe
+﻿  Win32_API.vcxproj -> C:\Users\kuris_window\Desktop\WinApi\Practice\tank\x64\Debug\Win32_API.exe

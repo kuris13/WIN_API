@@ -1,0 +1,7 @@
+﻿  mainGame.cpp
+c:\users\kuris_window\desktop\winapi\practice\earthworm\win32_api\maingame.cpp(75): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kuris_window\desktop\winapi\practice\earthworm\win32_api\maingame.cpp(76): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kuris_window\desktop\winapi\practice\earthworm\win32_api\maingame.cpp(156): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kuris_window\desktop\winapi\practice\earthworm\win32_api\maingame.cpp(173): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kuris_window\desktop\winapi\practice\earthworm\win32_api\maingame.cpp(174): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Win32_API.vcxproj -> C:\Users\kuris_window\Desktop\WinApi\Practice\earthworm\x64\Debug\Win32_API.exe

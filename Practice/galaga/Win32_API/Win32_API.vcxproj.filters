@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="API_FrameWork">
+      <UniqueIdentifier>{af9d3e10-7569-4ebf-b833-b89db20a7240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\mainGame">
+      <UniqueIdentifier>{b4b708fb-72b3-454c-a259-244bfca34e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Manager">
+      <UniqueIdentifier>{0bc61dac-19ed-4993-90e7-2ed62e06c50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Utility">
+      <UniqueIdentifier>{3b26e7ac-65fc-43b1-990e-de2b942ed202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Image">
+      <UniqueIdentifier>{d68b7648-74f3-436d-9ea0-453801469d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\SampleScene">
+      <UniqueIdentifier>{7cfe811d-9272-4666-a45c-2aafb6d4d6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\SampleScene\01. Alpha Render">
+      <UniqueIdentifier>{d6c02950-828f-4fc3-875a-7aa38aa211d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\SampleScene\TestProj">
+      <UniqueIdentifier>{ae5be676-ed92-4e5e-ad37-ec7bb4d3a70c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>API_FrameWork\mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>API_FrameWork\mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>API_FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_alphaRender.cpp">
+      <Filter>API_FrameWork\SampleScene\01. Alpha Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProj.cpp">
+      <Filter>API_FrameWork\SampleScene\TestProj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>API_FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="setDefine.h">
+      <Filter>API_FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>API_FrameWork\mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>API_FrameWork\mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>API_FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>API_FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_alphaRender.h">
+      <Filter>API_FrameWork\SampleScene\01. Alpha Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProj.h">
+      <Filter>API_FrameWork\SampleScene\TestProj</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>API_FrameWork\SampleScene\TestProj</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>API_FrameWork\SampleScene\TestProj</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

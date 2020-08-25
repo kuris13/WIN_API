@@ -1,0 +1,10 @@
+﻿  mainGame.cpp
+c:\users\sga\desktop\win32_api\win32_api\keymanager.h(3): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+  main.cpp
+c:\users\sga\desktop\win32_api\win32_api\keymanager.h(3): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+  keyManager.cpp
+c:\users\sga\desktop\win32_api\win32_api\keymanager.h(3): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+  gameNode.cpp
+c:\users\sga\desktop\win32_api\win32_api\keymanager.h(3): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+  코드를 생성하고 있습니다...
+  Win32_API.vcxproj -> C:\Users\SGA\Desktop\Win32_API\Debug\Win32_API.exe

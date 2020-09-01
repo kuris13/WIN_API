@@ -20,7 +20,10 @@ private:
 
 	bool gameStop = false;;
 public:
+
+
 	void gameInit();
+
 	HRESULT init();
 	void release();
 	void update();

@@ -27,8 +27,30 @@ HRESULT mainGame::init()
 	//bird
 	SCENEMANAGER->addScene("버드", new birdScene);
 
+	//shop
+	SCENEMANAGER->addScene("상점", new Scene_shop);
+
+	//popol
+	SCENEMANAGER->addScene("포폴", new popolScene);
+
 	//실행할 Scene을 선택
 	SCENEMANAGER->changeScene("알파렌더");
+
+	
+
+
+
+
+
+
+	//====================================
+	//재생할 사운드를 추가
+	SOUNDMANAGER->addSound("브금", "BGM.mp3",true,true);
+
+	//사운드 재생
+	//SOUNDMANAGER->play("브금", 0.5f);
+
+
 
 	return S_OK;
 }
@@ -65,8 +87,15 @@ void mainGame::update()
 		SCENEMANAGER->changeScene("픽셀충돌");
 
 
-	if (KEYMANAGER->isOnceKeyDown(VK_TAB))
+	if (KEYMANAGER->isOnceKeyDown(VK_NUMPAD6))
 		SCENEMANAGER->changeScene("버드");
+
+	if (KEYMANAGER->isOnceKeyDown(VK_NUMPAD7))
+		SCENEMANAGER->changeScene("상점");
+
+	if (KEYMANAGER->isOnceKeyDown(VK_TAB))
+		SCENEMANAGER->changeScene("포폴");
+
 }
 
 void mainGame::render()

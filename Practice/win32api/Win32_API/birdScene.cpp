@@ -18,6 +18,7 @@ HRESULT birdScene::init()
 
 void birdScene::gameInit()
 {
+
 	score = 0;
 	enemy[0] = RectMakeCenter(WINSIZE_X - 150, 50, 100, 100);
 	enemy[1] = RectMakeCenter(WINSIZE_X - 150, 150, 100, 100);
@@ -27,7 +28,9 @@ void birdScene::gameInit()
 	enemy[4] = RectMakeCenter(WINSIZE_X - 150, 450, 100, 100);
 	enemy[5] = RectMakeCenter(WINSIZE_X - 150, 550, 100, 100);
 	enemy[6] = RectMakeCenter(WINSIZE_X - 150, 650, 100, 100);
+
 	player = RectMakeCenter(200, WINSIZE_Y / 2, 58, 40);
+
 }
 
 void birdScene::release()
@@ -74,6 +77,7 @@ void birdScene::update()
 			}
 			++jC;
 		}
+
 
 		for (int i = 0; i < 7; i++)
 		{

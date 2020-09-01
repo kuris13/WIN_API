@@ -3,6 +3,10 @@
 //윈도우 헤더 파일
 #include <Windows.h>
 
+//디버깅용 콘솔
+#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
+
+
 //C언어 런타임 헤더 파일
 #include <stdlib.h>
 #include <malloc.h>
@@ -24,6 +28,8 @@ using namespace std;
 #include "randomFunction.h"
 #include "imageManager.h"
 #include "sceneManager.h"
+#include "soundManager.h"
+#include "cameraManager.h"
 /* ===================================
 싱글톤
 =================================== */
@@ -31,7 +37,8 @@ using namespace std;
 #define RND randomFunction::getSingleton()
 #define IMAGEMANAGER imageManager::getSingleton()
 #define SCENEMANAGER sceneManager::getSingleton()
-
+#define SOUNDMANAGER soundManager::getSingleton()
+#define CAMERAMANAGER cameraManager::getSingleton()
 /* ===================================
 		윈도우 define 관련
 =================================== */

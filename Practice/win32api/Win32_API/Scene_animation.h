@@ -1,5 +1,6 @@
 #pragma once
 #include "gameNode.h"
+#include "progressBar.h"
 class Scene_animation : public gameNode
 {
 private:
@@ -11,6 +12,8 @@ private:
 
 	int _count, _index;
 
+	float _maxHP, _currentHP;
+	progressBar* _hpBar;
 
 
 public:

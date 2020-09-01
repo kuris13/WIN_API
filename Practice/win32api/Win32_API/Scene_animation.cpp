@@ -23,6 +23,22 @@ HRESULT Scene_animation::init()
 	//캐릭터 움직임을 판단하는 bool 변수
 	_isStop = false;
 
+
+	//==============================================
+
+	//HP게이지 만들기
+	_hpBar = new progressBar;
+	//초기화
+	_hpBar->init((char*)"Images/loadingBarFront",
+		(char*)"Images/loadingBarBack",
+		rc.left,rc.top,85,8);
+	//최대 HP와 현재 HP 설정
+	_maxHP = 1000;
+	_currentHP = _maxHP * 0.25f;
+	//게이지에 반영
+	_hpBar->setGauge(_currentHP, _maxHP);
+
+
 	return S_OK;
 }
 
@@ -94,12 +110,24 @@ void Scene_animation::update()
 		_isStop = true;
 		player->setFrameX(0);
 	}
+
+
+	//HP 업데이트
+	_currentHP += 3;
+	if (_currentHP > 1000) _currentHP = 0;
+
+	_hpBar->setX(rc.left);
+	_hpBar->setY(rc.top);
+	_hpBar->setGauge(_currentHP, _maxHP);
+	_hpBar->update();
+
 }
 
 void Scene_animation::render()
 {
 	//출력
 	IMAGEMANAGER->frameRender("캐릭터", getMemDC(), rc.left, rc.top);
+	_hpBar->render();
 
 	//디버그용 박스 ON/OFF
 	if (KEYMANAGER->isToggleKey(VK_F1))

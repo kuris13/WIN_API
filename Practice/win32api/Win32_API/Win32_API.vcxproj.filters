@@ -25,9 +25,6 @@
     <Filter Include="API_FrameWork\Utility">
       <UniqueIdentifier>{3b26e7ac-65fc-43b1-990e-de2b942ed202}</UniqueIdentifier>
     </Filter>
-    <Filter Include="API_FrameWork\Image">
-      <UniqueIdentifier>{d68b7648-74f3-436d-9ea0-453801469d7d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="API_FrameWork\SampleScene">
       <UniqueIdentifier>{7cfe811d-9272-4666-a45c-2aafb6d4d6f2}</UniqueIdentifier>
     </Filter>
@@ -52,6 +49,24 @@
     <Filter Include="API_FrameWork\SampleScene\06.bird">
       <UniqueIdentifier>{3f10538f-3210-4bc7-a0d3-e0c303de9daf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="API_FrameWork\SampleScene\07.Shop">
+      <UniqueIdentifier>{56a9d5b8-c2cb-4f8d-9c51-e4fd4b81b82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\SampleScene\popol">
+      <UniqueIdentifier>{f13ff5d3-8ab6-4d87-a07b-8912c1d3bdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Base">
+      <UniqueIdentifier>{a9004902-9107-4cb2-9a93-46245fec7366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Base\Image">
+      <UniqueIdentifier>{d68b7648-74f3-436d-9ea0-453801469d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Base\ProgressBar">
+      <UniqueIdentifier>{96f877d5-48c7-4e4f-9545-b3d51e2d0c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API_FrameWork\Base\Loading">
+      <UniqueIdentifier>{0d816f76-159b-4c07-9565-ebb799374212}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="keyManager.cpp">
@@ -67,7 +82,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="image.cpp">
-      <Filter>API_FrameWork\Image</Filter>
+      <Filter>API_FrameWork\Base\Image</Filter>
     </ClCompile>
     <ClCompile Include="imageManager.cpp">
       <Filter>API_FrameWork\Manager</Filter>
@@ -96,6 +111,30 @@
     <ClCompile Include="birdScene.cpp">
       <Filter>API_FrameWork\SampleScene\06.bird</Filter>
     </ClCompile>
+    <ClCompile Include="flappyBird.cpp">
+      <Filter>API_FrameWork\SampleScene\06.bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_shop.cpp">
+      <Filter>API_FrameWork\SampleScene\07.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>API_FrameWork\SampleScene\07.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="popolScene.cpp">
+      <Filter>API_FrameWork\SampleScene\popol</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>API_FrameWork\Base\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="loding.cpp">
+      <Filter>API_FrameWork\Base\Loading</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="commonMacroFunction.h">
@@ -120,7 +159,7 @@
       <Filter>API_FrameWork\Utility</Filter>
     </ClInclude>
     <ClInclude Include="image.h">
-      <Filter>API_FrameWork\Image</Filter>
+      <Filter>API_FrameWork\Base\Image</Filter>
     </ClInclude>
     <ClInclude Include="imageManager.h">
       <Filter>API_FrameWork\Manager</Filter>
@@ -148,6 +187,30 @@
     </ClInclude>
     <ClInclude Include="birdScene.h">
       <Filter>API_FrameWork\SampleScene\06.bird</Filter>
+    </ClInclude>
+    <ClInclude Include="flappyBird.h">
+      <Filter>API_FrameWork\SampleScene\06.bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_shop.h">
+      <Filter>API_FrameWork\SampleScene\07.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>API_FrameWork\SampleScene\07.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>API_FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="popolScene.h">
+      <Filter>API_FrameWork\SampleScene\popol</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>API_FrameWork\Base\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="loding.h">
+      <Filter>API_FrameWork\Base\Loading</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

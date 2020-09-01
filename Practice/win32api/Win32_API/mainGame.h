@@ -11,6 +11,8 @@
 #include "Scene_animation.h"
 #include "p_Scene.h"
 #include "birdScene.h"
+#include "Scene_shop.h"
+#include "popolScene.h"
 class mainGame : public gameNode
 {
 private:
